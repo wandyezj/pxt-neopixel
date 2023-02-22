@@ -1,6 +1,10 @@
 name: MakeCode
 
-on: [push]
+on: 
+  push:
+
+  # Manual
+  workflow_dispatch:
 
 jobs:
   build:
